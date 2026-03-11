@@ -31,7 +31,6 @@ function guest3() {
 }
 
 function reset() {
-    console.log(scoreH);
     scoreH = 0;
     scoreG = 0;
     document.getElementById("score1").innerHTML= scoreH;
